@@ -7,7 +7,7 @@ struct Node {
     Node* right;
 };
 
-// In-order: Left → Root → Right
+// In-order: Left → Root → Right.
 void inorder(Node* root) {
     if (root == nullptr) return;
     inorder(root->left);
